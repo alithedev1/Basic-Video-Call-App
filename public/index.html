@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Chat</title>
+    
+    <!-- Include the external stylesheet for styling -->
+    <link rel="stylesheet" href="/style.css" />
+
+  </head>
+  <body>
+    <!-- Create a container for displaying video streams -->
+    <div id="video-grid"></div>
+    
+    <!-- Include the Socket.io JavaScript library for real-time communication -->
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <!-- Include the PeerJS JavaScript library for WebRTC communication -->
+    <script src="https://unpkg.com/peerjs@1.5.1/dist/peerjs.min.js"></script>
+    
+    <!-- Include your custom script for handling video chat functionality -->
+    <script src="/script.js"></script>
+    
+  </body>
+</html>
