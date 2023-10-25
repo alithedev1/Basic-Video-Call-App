@@ -16,5 +16,5 @@
     "peerjs": "^1.5.1",
     "socket.io": "^4.7.2"
   },
-  "description": ""
+  "description": "Welcome to the Video Chat Application! This web application allows you to have real-time video chats with other users. Below are the steps to set up and use this application."
 }
